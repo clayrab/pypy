@@ -569,6 +569,7 @@ import os
 import time
 import getpass
 
+
 class ReallyRunFileExternal(py.test.collect.Item): 
     class ExternalFailure(Exception):
         """Failure in running subprocess"""
